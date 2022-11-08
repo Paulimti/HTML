@@ -1,0 +1,48 @@
+/* group of selectors */
+/* h1,p,li{
+    color:blueviolet;
+    font-size: 20px;
+} */
+/* descendent selectors, we use space */
+/* div p{
+color:crimson;
+font-size: 20px;
+}
+/* child combinator, we use > */
+/* #div2 > h1{
+    color:darkmagenta;
+} */
+/* Adjacent sibling combinaot,we use + */
+/* #div1+#div2{
+    color:blue;
+
+}
+/* general sibling combinator, we use ~ */
+/* div ~ p{
+    color:rgb(76, 149, 76);
+    font-size: 25px;
+} */
+a{
+    font-size: 25px;
+
+}
+a:hover{
+    color:crimson;
+}
+a:visited{
+    color:blueviolet;
+}
+a:active{
+    color:blue;
+    font-style: bold;
+}
+#button:hover{
+    background-color: greenyellow;
+    size: 30px;
+}
+/* div.innerdiv>p#j1{
+    color:red;
+} */
+.innerdiv+.secondinnerdiv{
+    color:crimson;
+}

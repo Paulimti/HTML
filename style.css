@@ -1,0 +1,27 @@
+/* p{
+    color:red;
+    font-size: 30px;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-color: beige;
+} */
+*{
+    margin: 0%;
+}
+
+h1{
+    color:rgb(168, 109, 222);
+    text-align: center;
+}
+#header1{
+    color:rgb(23, 97, 95);
+}
+.text{
+    color:brown;
+    font-size: 20px;
+}
+div{
+    background-color: antiquewhite;
+}
