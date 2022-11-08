@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Text Input Control</title>
+    </head>
+    <body >
+        <h1 align="center" style="background-color:greenyellow; border: 3px dashed black; border-radius: 3px; margin-left: 20%; margin-right: 20%; padding:1%">Registration Form</h1>
+        <pre>
+        <div class="cointainer" style="background:greenyellow; border: 3px dashed black; border-radius: 3px; margin-left: 20%; margin-right: 20%;">
+        <form style="background:greenyellow;font-style: bold;font-size: 25px;" align="left">
+            First name:<input type="text" name="first_name"/><br>
+            Last name: <input type="text" name="last_name"/><br>
+            User ID:   <input type="text" name="user_id"/><br>
+            Password:  <input type="password" name="password" style="background-color: blueviolet; color: whitesmoke;"/><br>
+            Job Type: <input type="radio" name="job" value="student" /> Student<br>
+                      <input type="radio" name="job" value="work" /> Working Professional<br>
+            Interests:<input type="checkbox" name="chk" value="coding"/>Coding<br>
+                      <input type="checkbox" name="chk" value="games"/>Games<br>
+            Description: <br/>
+            <textarea rows="20" cols="25" name="description" style="background-color:bisque; border-radius: 3px;">Enter the description here...</textarea>
+            Select one course:
+            <select>
+                <option value="html" selected>HTML</option>
+                <option value="css" >CSS</option>
+                <option value="js" >Javascript</option>
+                <option value="php">PHP</option>
+            </select><br>
+            Upload Image: <input type="file" name="fileupload"/><br>
+            <input type="submit" value="Submit" name="submit" style="background-color: red;border-radius: 3px; border: 5px dashed rgb(3, 2, 2);"/>
+            
+        </form>
+        </div>
+        </pre>
+    </body>
+</html>

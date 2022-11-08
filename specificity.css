@@ -1,0 +1,7 @@
+#outer a{
+    background-color: red;
+    font-size: 40px;
+}#outer #inner a {
+    background-color: blueviolet;
+    font-size: 40px;
+}
